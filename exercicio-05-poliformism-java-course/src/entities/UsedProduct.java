@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 
 public class UsedProduct extends Product {
 	
-	public static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");;
+	public static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 	
 	private LocalDate manufactureDate;
 	public UsedProduct(String name, Double price, LocalDate manufactreDate) {
